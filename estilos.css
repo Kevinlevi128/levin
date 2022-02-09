@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    border: solid 1px black;
+    color: azure;
+}
+h2 {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    color: azure;
+}
+section {
+    margin-bottom: 10px;
+}
+img {
+    padding: 10px;
+}
+.centro {
+    text-align: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.borde {
+    border: solid 5px black;
+}
+/* Trancisiones */
+.transicion {
+    transition: all 1s;
+}
+.transicion:hover {
+    width: 100%;
+    height: 50%;
+    border: black solid 5px;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_749816-MLA31051759507_062019-F.webp);
+}
+/* GRADIENTES */
+.gradL {
+    background-image: linear-gradient(to left, black, gray, red);
+}
