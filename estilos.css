@@ -1,3 +1,8 @@
+body {
+    height: 100%;
+    background-color: #acabb0;
+    background-image: linear-gradient(315deg, #e01c34 0%, #acabb0 74%);
+}
 h1 {
     text-align: center;
     margin-left: 35%;

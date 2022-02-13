@@ -29,6 +29,7 @@ h4 {
     border: solid 1px black;
     color: azure;
     padding: 2px;
+    margin-right: 60%;
     margin-bottom: 40px;
 }
 img {
@@ -38,8 +39,14 @@ p {
     text-align: center;
     color: azure;
 }
+form {
+    text-align: center;
+}
 
 /* GRADIENTES */
 .gradL {
     background-image: linear-gradient(to left, black, gray, red);
+}
+.grad {
+    background-image: linear-gradient(to right, black, gray, red);
 }
