@@ -1,0 +1,67 @@
+/* IMPORT */
+@font-face {
+  font-family: sans-serif;
+  src: url(../Lato/Lato-Regular.ttf);
+}
+body {
+  height: 100%;
+  background-color: #acabb0;
+  background-image: linear-gradient(315deg, #e01c34 0%, #acabb0 74%);
+}
+
+h1 {
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 5px;
+  border: solid 1px black;
+  color: azure;
+}
+
+h2 {
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 5px;
+  color: azure;
+}
+
+h3 {
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 5px;
+  color: azure;
+}
+
+h4 {
+  border: solid 1px black;
+  color: azure;
+  padding: 2px;
+  margin-right: 40%;
+  margin-bottom: 40px;
+}
+
+img {
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  color: azure;
+}
+
+form {
+  text-align: center;
+}
+
+/* GRADIENTES */
+.gradL {
+  background-image: linear-gradient(to left, black, gray, red);
+}
+
+.grad {
+  background-image: linear-gradient(to right, black, gray, red);
+}
+
+/*# sourceMappingURL=destino.css.map */
