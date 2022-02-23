@@ -1,0 +1,18 @@
+$redes: (
+// clave valores
+    Nombre: red,
+    Email: rgb(161, 23, 23),
+    Telefono: rgb(112, 0, 0),
+    horarios: rgb(71, 2, 2),
+    ubicacion: rgb(37, 0, 0),
+);
+
+//Each con maps
+@each $nombres, $color in $redes {
+
+    .boton-#{$nombres} {
+        background-color: $color;
+        border: 2px solid black;
+    }
+}
+

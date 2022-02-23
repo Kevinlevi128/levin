@@ -55,6 +55,68 @@ form {
   text-align: center;
 }
 
+/* EXTEND */
+.galeria, .galeria4, .galeria3, .galeria2, .galeria1 {
+  border: 2px solid red;
+}
+
+.galeria1 {
+  border: 2px solid #c20000;
+}
+
+.galeria2 {
+  border: 2px solid #793f3f;
+}
+
+.galeria3 {
+  border: 2px solid #6b5e5e;
+}
+
+.galeria4 {
+  border: 2px solid black;
+}
+
+/* MIXINS */
+.tamanio1 {
+  width: 600px;
+  height: 900px;
+}
+
+.tamanio2 {
+  width: 600px;
+  height: 700px;
+}
+
+.tamanio3 {
+  width: 600px;
+  height: 600px;
+}
+
+.boton-Nombre {
+  background-color: red;
+  border: 2px solid black;
+}
+
+.boton-Email {
+  background-color: #a11717;
+  border: 2px solid black;
+}
+
+.boton-Telefono {
+  background-color: #700000;
+  border: 2px solid black;
+}
+
+.boton-horarios {
+  background-color: #470202;
+  border: 2px solid black;
+}
+
+.boton-ubicacion {
+  background-color: #250000;
+  border: 2px solid black;
+}
+
 /* GRADIENTES */
 .gradL {
   background-image: linear-gradient(to left, black, gray, red);

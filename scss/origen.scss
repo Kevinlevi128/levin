@@ -1,53 +1,10 @@
 /* IMPORT */
 @import "_variables";
 @import "_tipografia";
-@import "_estructura";
 @import "_colores";
+@import "_estructura";
+@import "_maps";
 
-body {
-    height: 100%;
-    background-color: #acabb0;
-    background-image: linear-gradient(315deg, #e01c34 0%, #acabb0 74%);
-}
-h1 {
-    text-align: $centro;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding: 5px;
-    border: solid 1px $Co2;
-    color: $Co1;
-}
-h2 {
-    text-align: $centro;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding: 5px;
-    color: $Co1;
-}
-h3 {
-    text-align: $centro;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding: 5px;
-    color: $Co1;
-}
-h4 {
-    border: solid 1px $Co2;
-    color: $Co1;
-    padding: 2px;
-    margin-right: 40%;
-    margin-bottom: 40px;
-}
-img {
-    padding: 10px;
-}
-p {
-    text-align: $centro;
-    color: $Co1;
-}
-form {
-    text-align: $centro;
-}
 
 /* GRADIENTES */
 .gradL {
