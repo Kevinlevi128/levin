@@ -1,0 +1,77 @@
+/* RESPONSIVE */
+/* TABLET*/
+@media (min-width: 481px) and (max-width: 1023px){
+    body {
+        width: 100%;
+        height: 100%;
+    } 
+    h1 {
+        margin-left: 30%;
+    margin-right: 30%;
+    }
+    h3 {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    p {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    img {   
+        padding: 10px;
+    }
+    .img {
+        width: 300px;
+        height: 500px;
+    }
+/* MIXINS */
+@mixin tamanio ($ancho, $largo) {
+    width: $ancho;
+    height: $largo;
+}
+.tamanio1 {
+    @include tamanio(45vw, 90vh)
+}
+.tamanio2 {
+    @include tamanio(45vw, 70vh)
+}
+.tamanio3 {
+    @include tamanio(45vw, 100vh)
+}
+}
+
+
+
+
+/* SMARTPHONE*/
+@media (max-width: 480px){
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    h1 {
+        margin-left: 30%;
+    margin-right: 30%;
+    }
+    h3 {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    p {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .img1 {
+        width: 200px;
+        height: 400px;
+    }
+    .tamanio1 {
+        @include tamanio(55vw, 80vh)
+    }
+    .tamanio2 {
+        @include tamanio(55vw, 60vh)
+    }
+    .tamanio3 {
+        @include tamanio(55vw, 90vh)
+    }
+}

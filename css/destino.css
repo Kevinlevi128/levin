@@ -38,7 +38,7 @@ h4 {
   border: solid 1px black;
   color: azure;
   padding: 2px;
-  margin-right: 40%;
+  margin-right: 35%;
   margin-bottom: 40px;
 }
 
@@ -65,16 +65,9 @@ form {
   margin: 5px;
 }
 
-/* Trancisiones */
-.transicion {
-  transition: all 1s;
-}
-
-.transicion:hover {
-  width: 100%;
-  height: 50%;
-  border: black solid 5px;
-  background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_749816-MLA31051759507_062019-F.webp);
+.bordeV {
+  padding: 5px;
+  border: 3px solid black;
 }
 
 /* EXTEND */
@@ -101,12 +94,12 @@ form {
 /* MIXINS */
 .tamanio1 {
   width: 40vw;
-  height: 120vh;
+  height: 100vh;
 }
 
 .tamanio2 {
   width: 40vw;
-  height: 100vh;
+  height: 80vh;
 }
 
 .tamanio3 {
@@ -139,6 +132,96 @@ form {
   border: 2px solid black;
 }
 
+/* RESPONSIVE */
+/* TABLET*/
+@media (min-width: 481px) and (max-width: 1023px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  h3 {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  p {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  img {
+    padding: 10px;
+  }
+
+  .img {
+    width: 300px;
+    height: 500px;
+  }
+
+  /* MIXINS */
+  .tamanio1 {
+    width: 45vw;
+    height: 90vh;
+  }
+
+  .tamanio2 {
+    width: 45vw;
+    height: 70vh;
+  }
+
+  .tamanio3 {
+    width: 45vw;
+    height: 100vh;
+  }
+}
+/* SMARTPHONE*/
+@media (max-width: 480px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
+  h1 {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  h3 {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  p {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .img1 {
+    width: 200px;
+    height: 400px;
+  }
+
+  .tamanio1 {
+    width: 55vw;
+    height: 80vh;
+  }
+
+  .tamanio2 {
+    width: 55vw;
+    height: 60vh;
+  }
+
+  .tamanio3 {
+    width: 55vw;
+    height: 90vh;
+  }
+}
 /* GRADIENTES */
 .gradL {
   background-image: linear-gradient(to left, black, gray, red);
